@@ -47,7 +47,7 @@
       "uniques":[
          "[+200]% Strength <vs cities>",
          "No defensive terrain bonus",
-         "Limited Visibility",
+         "[-1] Sight"
          "Ranged attacks may be performed over obstacles"
       ]
    },
@@ -71,7 +71,7 @@
       "cost":100,
       "requiredTech":"Steel",
       "upgradesTo":"Militia",
-      "obsoleteTech":"Gunpowder",
+      "obsoleteTech":"Rifling",
       "attackSound":"metalhit"
    },
    {
@@ -149,7 +149,7 @@
    {
       "name":"Bunker Worker",
       "unitType":"Civilian",
-      "requiredTech":"Industrilization",
+      "requiredTech":"Industrialization",
       "movement":2,
       "uniques":[
          "Can build [Bunker] improvements on tiles"
