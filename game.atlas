@@ -4,14 +4,14 @@ size: 2048,128
 format: RGBA8888
 filter: MipMapLinearLinear,MipMapLinearLinear
 repeat: none
-ImprovementIcons/bunker
+ImprovementIcons/Bunker
   rotate: false
   xy: 1124, 2
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/trench
+ImprovementIcons/Trench
   rotate: false
   xy: 1430, 2
   size: 100, 100
@@ -123,21 +123,21 @@ UnitIcons/Tank Destroyer
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/bunker worker
+UnitIcons/Bunker Worker
   rotate: false
   xy: 1226, 2
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/trench digger
+UnitIcons/Trench Digger
   rotate: false
   xy: 1226, 2
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/flag bearer
+UnitIcons/Flag Bearer
   rotate: false
   xy: 1328, 2
   size: 100, 100
