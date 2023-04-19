@@ -9,7 +9,7 @@
 	},
 	{
 		"name":"Bunker",
-		"techRequired":"Replacable Parts",
+		"techRequired":"Replaceable Parts",
 		"uniques":[
 			"Can be built outside your borders",
 			"Adjacent enemy units ending their turn take [30] damage"
