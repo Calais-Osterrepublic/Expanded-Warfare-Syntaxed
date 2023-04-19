@@ -1,0 +1,18 @@
+[
+	{
+		"name":"Trench",
+		"techRequired":"Rifling",
+		"uniques":[
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [25]%"
+		]
+	},
+	{
+		"name":"Bunker",
+		"techRequired":"Replacable Parts",
+		"uniques":[
+			"Can be built outside your borders",
+			"Deal 30 damage to adjacent enemy units"
+		]
+	}
+]
