@@ -1,7 +1,7 @@
 [
    {
       "name":"Militia",
-      "unitType":"Melee",
+      "unitType":"Gunpowder",
       "movement":2,
       "strength":30,
       "cost":105,
@@ -12,7 +12,7 @@
    },
    {
       "name":"Great War Recruit",
-      "unitType":"Melee",
+      "unitType":"Gunpowder",
       "movement":2,
       "strength":44,
       "cost":160,
@@ -23,7 +23,7 @@
    },
    {
       "name":"Conscript",
-      "unitType":"Melee",
+      "unitType":"Gunpowder",
       "movement":2,
       "strength":58,
       "cost":240,
@@ -53,9 +53,9 @@
    },
    {
       "name":"Bandits",
-      "unitType":"Melee",
+      "unitType":"Sword",
       "movement":2,
-      "strength":12,
+      "strength":10,
       "cost":70,
       "requiredTech":"Iron Working",
       "upgradesTo":"Mercenaries",
@@ -65,7 +65,7 @@
    },
    {
       "name":"Mercenaries",
-      "unitType":"Melee",
+      "unitType":"Sword",
       "movement":2,
       "strength":19,
       "cost":100,
@@ -76,7 +76,7 @@
    },
    {
       "name":"Great War Sniper",
-      "unitType":"Ranged",
+      "unitType":"Ranged Gunpowder",
       "movement":1,
       "strength": 5,
       "range":3,
@@ -95,7 +95,7 @@
    },
    {
       "name":"Sniper",
-      "unitType":"Ranged",
+      "unitType":"Ranged Gunpowder",
       "movement":1,
       "range":3,
       "strength": 5,
@@ -123,7 +123,7 @@
    },
    {
       "name":"Rocket Launcher",
-      "unitType":"Ranged",
+      "unitType":"Ranged Gunpowder",
       "movement":2,
       "strength":20,
       "range":2,
@@ -168,21 +168,22 @@
    },
    {
       "name":"APC",
-      "unitType":"Melee",
+      "unitType":"Armored",
       "movement":4,
-      "strength":95,
-      "cost":430,
+      "strength":60,
+      "cost":400,
       "requiredTech":"Mobile Tactics",
       "requiredResource":"Oil",
       "uniques":[
-         "[+50]% Strength <vs [Melee] units>",
-         "[+50]% Strength <vs [Melee] units>"
+         "[-50]% Strength <vs [Melee] units>",
+         "[-50]% Strength <vs [Ranged] units>",
+         "Can transform to [Infantry]",
       ],
       "attackSound":"shot"
    },
    {
       "name":"Scout Car",
-      "unitType":"Melee",
+      "unitType":"Armored",
       "movement":5,
       "strength":35,
       "cost":180,
@@ -194,7 +195,7 @@
    },
    {
       "name":"AA Vehicle",
-      "unitType":"Melee",
+      "unitType":"Armored",
       "movement":4,
       "interceptRange":2,
       "strength":40,
@@ -218,14 +219,13 @@
       "upgradesTo":"Cannon",
       "uniques":[
          "[+150]% Strength <vs cities>",
-         "Must set up to ranged attack",
          "[-1] Sight"
       ],
       "attackSound":"nonmetalhit"
    },
    {
       "name":"Grenadier",
-      "unitType":"Ranged",
+      "unitType":"Ranged Gunpowder",
       "movement":2,
       "strength":20,
       "range":2,
