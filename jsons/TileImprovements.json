@@ -3,7 +3,15 @@
 		"name":"Trench",
 		"techRequired":"Rifling",
 		"terrainsCanBeBuiltOn": ["
-					 Desert, Plains, Tundra, Snow, Hills, Grassland"
+					Desert,"
+					Plains,"
+					 Tundra,"
+					 Hills,"
+					 Snow,"
+					 Grassland,"
+					 
+					
+					 
 					],
 		"uniques":[
 			"Can be built outside your borders",
@@ -13,7 +21,12 @@
 	{
 		"name":"Bunker",
 		"terrainsCanBeBuiltOn": ["
-					 Desert, Plains, Tundra, Snow, Hills, Grassland"
+					 Desert," 
+					 Plains," 
+					 Tundra," 
+					 Snow," 
+					 Hills," 
+					 Grassland"
 					
 					],
 		"techRequired":"Replaceable Parts",
