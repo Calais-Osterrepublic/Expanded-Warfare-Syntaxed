@@ -47,7 +47,7 @@
       "uniques":[
          "[+200]% Strength <vs cities>",
          "No defensive terrain bonus",
-         "[-1] Sight"
+         "[-1] Sight",
          "Ranged attacks may be performed over obstacles"
       ]
    },
@@ -86,10 +86,10 @@
       "upgradesTo":"Sniper",
       "obsoleteTech":"Plastics",
       "uniques":[
-         "[+200]% Strength <vs [Melee] units>",
+         "[+200]% Strength <when attacking> <vs [Melee] units>",
          "No defensive terrain bonus",
-         "[+100]% Strength <vs [Ranged] units>",
-         "[+200]% Strength <vs [Mounted] units>"
+         "[+100]% Strength <when attacking> <vs [Ranged] units>",
+         "[+200]% Strength <when attacking> <vs [Mounted] units>"
       ],
       "attackSound":"shot"
    },
@@ -103,9 +103,9 @@
       "cost":400,
       "requiredTech":"Plastics",
       "uniques":[
-         "[+500]% Strength <vs [Melee] units>",
+         "[+500]% Strength <when attacking> <vs [Melee] units>",
          "No defensive terrain bonus",
-         "[+500]% Strength <vs [Ranged] units>"
+         "[+500]% Strength <when attacking> <vs [Ranged] units>"
       ],
       "attackSound":"shot"
    },
@@ -118,7 +118,7 @@
       "requiredTech":"Combined Arms",
       "requiredResource":"Oil",
       "uniques":[
-         "[+200]% Strength <vs [Armor] units>"
+         "[+200]% Strength <when attacking> <vs [Armor] units>"
       ]
    },
    {
@@ -131,8 +131,8 @@
       "cost":375,
       "requiredTech":"Combustion",
       "uniques":[
-         "[+250]% Strength <vs [Armor] units>",
-         "[+250]% Strength <vs cities>"
+         "[+250]% Strength <when attacking> <vs [Armor] units>",
+         "[+250]% Strength <when attacking> <vs cities>"
       ],
       "attackSound":"shot"
    },
@@ -175,15 +175,27 @@
       "requiredTech":"Mobile Tactics",
       "requiredResource":"Oil",
       "uniques":[
-         "[-50]% Strength <vs [Melee] units>",
-         "[-50]% Strength <vs [Ranged] units>",
+         "[-50]% Strength <when attacking> <vs [Melee] units>",
+         "[-50]% Strength <when attacking> <vs [Ranged] units>",
          "Can transform to [Infantry]",
       ],
       "attackSound":"shot"
    },
    {
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+      "upgradesTo":"Scout Car",
+		"obsoleteTech": "Steam Power",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+   {
       "name":"Scout Car",
-      "unitType":"Armored",
+      "unitType":"Scout",
       "movement":5,
       "strength":35,
       "cost":180,
@@ -218,7 +230,7 @@
       "obsoleteTech":"Chemistry",
       "upgradesTo":"Cannon",
       "uniques":[
-         "[+150]% Strength <vs cities>",
+         "[+150]% Strength <when attacking> <vs cities>",
          "[-1] Sight"
       ],
       "attackSound":"nonmetalhit"
@@ -233,8 +245,8 @@
       "cost":380,
       "requiredTech":"Dynamite",
       "uniques":[
-         "[+250]% Strength <vs [Ranged] units>",
-         "[+250]% Strength <vs [Melee] units>"
+         "[+250]% Strength <when attacking> <vs [Ranged] units>",
+         "[+250]% Strength <when attacking> <vs [Melee] units>"
       ]
    }
 ]
