@@ -45,7 +45,7 @@
       ],
       "requiredResource":"Iron",
       "uniques":[
-         "[+200]% Strength <vs cities>",
+         "[+200]% Strength <when attacking> <vs cities>",
          "No defensive terrain bonus",
          "[-1] Sight",
          "Ranged attacks may be performed over obstacles"
@@ -182,28 +182,28 @@
       "attackSound":"shot"
    },
    {
-		"name": "Scout",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 5,
-		"cost": 25,
-      "upgradesTo":"Scout Car",
-		"obsoleteTech": "Steam Power",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
+	"name": "Scout",
+	"unitType": "Scout",
+	"movement": 2,
+	"strength": 5,
+	"cost": 25,
+	"upgradesTo":"Scout Car",
+	"obsoleteTech": "Steam Power",
+	"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+	"promotions": ["Ignore terrain cost"],
+	"attackSound": "nonmetalhit"
 	},
-   {
-      "name":"Scout Car",
-      "unitType":"Scout",
-      "movement":5,
-      "strength":35,
-      "cost":180,
-      "requiredTech":"Steam Power",
-      "uniques":[
-         "Ignores terrain cost"
-      ],
-      "attackSound":"shot"
+	{
+      		"name":"Scout Car",
+	      	"unitType":"Scout",
+	      	"movement":5,
+	      	"strength":35,
+	      	"cost":180,
+	      	"requiredTech":"Steam Power",
+	      	"uniques":[
+			"Ignores terrain cost"
+		],
+		"attackSound":"shot"
    },
    {
       "name":"AA Vehicle",
